@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en html</title>
+    <style>
+        table, tr, td{
+            border: 1px solid red;
+            border-collapse: collapse;
+            padding: 15px;
+        }
+
+        #t2{
+            width: 100%;
+            background-color: crimson;
+
+        }
+        #t2 tr:nth-child(even){
+            background-color: darkslateblue;
+        }
+        #t2 tr:nth-child(odd){
+            background-color: dodgerblue;
+        }
+        #t2 th{
+            color: forestgreen;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas en html</h1>
+    <table style="width: 100%;">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Aldo</td>
+            <td>Marin</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>Torres</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+    <h1>Tabla 2 en html</h1>
+    <table id="t2">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Aldo</td>
+            <td>Marin</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>Torres</td>
+            <td>20</td>
+        </tr>
+    </table>
+</body>
+</html>

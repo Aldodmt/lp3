@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en html con varis atributos</title>
+</head>
+<body>
+    <h1>Formularios con varios atributos</h1>
+    <h2>Sólo lectura</h2>
+    <form action="">
+        <Label for="nombre">Nombre:</Label>
+        <input type="text" name="nombre" id="nombre" readonly><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido"><br><br>
+        <input type="submit" name="" id="" value="Enviar datos">
+    </form>
+
+    <hr>
+    <h2>Deshabilitar campo</h2>
+    <form action="">
+        <Label for="nombre">Nombre:</Label>
+        <input type="text" name="nombre" id="nombre" disabled><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido"><br><br>
+        <input type="submit" name="" id="" value="Enviar datos">
+    </form>
+
+    <hr>
+    <h2>Dar valores por defecto a campos</h2>
+    <form action="">
+        <Label for="nombre">Nombre:</Label>
+        <input type="text" name="nombre" id="nombre" value="Aldo"><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" value="Torres"><br><br>
+        <input type="submit" name="" id="" value="Enviar datos">
+    </form>
+
+    <hr>
+    <h2>Cambiar el tamaño de input</h2>
+    <form action="">
+        <Label for="nombre">Nombre:</Label>
+        <input type="text" name="nombre" id="nombre" size="50"><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" size="100"><br><br>
+        <input type="submit" name="" id="" value="Enviar datos">
+    </form>
+
+    <hr>
+    <h2>Establecer valores maximos y minimos para los inputs</h2>
+    <form action="">
+        <Label for="nombre">Nombre:</Label>
+        <input type="text" name="nombre" id="nombre" minlength="5" maxlength="10"><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" maxlength="5"><br><br>
+        <input type="submit" name="" id="" value="Enviar datos">
+    </form>
+
+    <hr>
+    <h2>Establecer valores maximos y minimos para los inputs</h2>
+    <form action="">
+        <Label for="nombre">Nombre:</Label>
+        <input type="date" name="datemax" id="datemax" max="1990-01-01"><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="date" name="datemin" id="datemin" maxlength="2000-01-01"><br><br>
+        <label for="numero">Nro: desde el 1 al 5</label>
+        <input type="number" name="nro" id="nro" min="1" max="5"><br>
+        <input type="submit" name="" id="" value="Enviar datos">
+    </form>
+
+    <hr>
+    <h2>Subir archivos</h2>
+    <form action="">
+        <Label for="archivos">Subir archivos:</Label>
+        <input type="file" name="archivo" id="archivo" multiple>
+    </form>
+
+    <hr>
+    <h2>Seguir un patron de entrada</h2>
+    <form action="">
+        <Label for="archivo">Archivos alfabético:</Label>
+        <input type="text" name="siglas" id="siglas" pattern="[a-zA-Z]{3}" title="Ingrese solamente 3 letras"><br><br>
+        <Label for="telefono">Nro de celular:</Label>
+        <input type="tel" name="telefono" id="telefono" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="0987-264-101">
+    </form>
+
+    <hr>
+    <h2>Campos requeridos y focus</h2>
+    <form action="">
+        <Label for="nombre">Archivos alfabético:</Label>
+        <input type="text" name="nombre" id="nombre" required><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" autofocus><br><br>
+    </form>
+
+    <hr>
+    <h2>Campos requeridos y focus</h2>
+    <form action="">
+        <Label for="nombre">Archivos alfabético:</Label>
+        <input list="navegadores" >
+        <datalist id="navegadores">
+            <option value="Mozilla Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Thor">
+        </datalist>
+    </form>
+
+    <hr>
+    <h2>Autocompletar</h2>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" autocomplete="off"><br><br>
+        <label for="apellido">Focus </label>
+        <input type="text" name="apellido" autocomplete="on">
+    </form>
+</body>
+</html>
