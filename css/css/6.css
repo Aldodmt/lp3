@@ -1,0 +1,33 @@
+/*Border*/
+/*
+border-color
+    css native | rgb | rgba | hs1 | hs1a | hexadecimal | transparent 
+
+    border-top-(whidth | style | color)
+    border-right-(whidth | style | color)
+    border-bottom-(whidth | style | color)
+    border-left-(whidth | style | color)
+
+*/
+
+.box-1, .box-2{
+    width: 200px;
+    height: 200px;
+    margin: 2em;
+}
+
+.box-1{
+    background-color: chartreuse;
+    border: 5px solid red;
+    border-top: none;
+    border-bottom: none;
+    /*border-top-width: 50px;*/
+    border-left-color: transparent;
+}
+
+.box-2{
+    background: violet;
+    border-left-width: 5px;
+    border-left-style: dotted;
+    border-left-color: tomato;
+}

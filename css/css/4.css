@@ -1,0 +1,68 @@
+/*Maquetar con BEM*/
+.titulo{
+    text-align: center;
+    font-size: 3em;
+    background: violet;
+    height: 80px;
+}
+
+.cabezera{
+    background: coral;
+    height: 75px;
+
+}
+
+.cabecera-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabecera-menu_item{
+    line-height: 3;
+}
+
+.cabecera-menu_link{
+    text-decoration: none;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.cabecera-menu_item:active{
+    background-color: red;
+}
+
+.principal{
+    background: turquoise;
+    height: 300px;
+
+}
+
+.piedepagina{
+    background: wheat;
+    height: 200px;
+}
+
+/*Forma incorrecta de maquetear en el menu
+nav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    line-height: 3;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font: 20;
+}*/
+
+/**/

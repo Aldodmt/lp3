@@ -1,0 +1,33 @@
+/*Margin y padding*/
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: plum;
+    /*Forma resumida*/
+    margin: 2em 2em 3em 4em;
+    /*Forma especifica*/
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 4em;
+}
+
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    border: 2px solid blue;
+    /*Forma resumida*/
+    padding: 2em 2em 3em 4em;
+    /*Forma especifica*/
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+}
+
+.box-2-contenedor{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}
