@@ -1,0 +1,40 @@
+/*Listas
+
+*/
+/*Resetear lista
+.Lista{
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+   margin-right: 0;
+   list-style: none;
+}*/
+
+.Lista{
+   list-style-type: disc;
+}
+
+.Lista{
+   list-style-type: circle;
+}
+
+.Lista{
+   list-style-type: square;
+}
+
+.Lista{
+   list-style-type: decimal;
+}
+
+.Lista{
+   list-style-type: lower-roman;
+}
+
+.Lista{
+   list-style-type: upper-roman;
+}
+
+.lista_item{
+   float: left;
+   padding-right: 2em;
+}

@@ -1,0 +1,48 @@
+/*Pseudoclases
+   link
+   visited
+   active
+   hover
+   focus
+
+*/
+
+.link:link{
+   color: red;
+}
+
+.link:visited{
+   color: purple;
+}
+
+.link:active{
+   color: violet;
+   background: tomato;
+}
+
+.button{
+   text-decoration: none;
+   display: inline-block;
+   background: red;
+   padding: .5em;
+   border-radius: 12px;
+   color: antiquewhite;
+}
+
+.button:active{
+   transform: scale(.10);
+}
+
+.button:hover{
+   color: darkgoldenrod;
+   background-color: aliceblue;
+   border: 1px solid darkgoldenrod;
+}
+
+.input:focus{
+   background: gray;
+}
+
+.parrafo{
+   margin-top: 1000px;
+}

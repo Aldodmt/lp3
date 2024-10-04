@@ -1,0 +1,15 @@
+/*Imagenes*/
+
+.img{
+   max-width: 100%;
+   width: 100%;
+}
+
+.img_center{
+   max-width: 100%;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: auto;
+   margin-bottom: auto; 
+}
