@@ -1,0 +1,27 @@
+/*Flexbox*/
+
+.flex-container{
+    background: tomato;
+    padding: .5em;
+    display: flex;/*Convertir elemento en bloque*/
+    /*display: inline-flex;/*Contenedor de tipo linea*/
+    /*flex-direction: row;/*Esta es la propiedad por defecto*/
+    /*flex-direction: row-reverse;/*revierte el orden normal*/
+    /*flex-direction: column;/*Opcion por defecto del eje vertical*/
+    /*flex-direction: column-reverse;/*Revierte el orden del eje vertical*/
+    /*Propiedad wrap*/
+    /*flex-wrap: nowrap;/*Opcion por defecto*/
+    /*flex-wrap: wrap;/*opcion para dar saltos de linea en caso de ser necesario*/
+    /*flex-wrap: wrap-reverse;/*Opcion para revertir el orden*/
+    flex-wrap: unset;/*Se adapta dependiendo del tamaño del item*/
+} 
+
+.flex-item{
+    width: 30px;
+    height: 30px;
+    margin: .5em;
+    background: steelblue;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
