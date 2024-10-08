@@ -1,0 +1,31 @@
+/*Grid 4*/
+
+body{
+    height: 100vh;
+    color: #eee;
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+    background-repeat: no-repeat;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    height: 80vh;
+    border: 3px solid yellow;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: end;
+    align-items: end;
+    align-content: space-between;
+    justify-items: start;
+}
+
+.grid-item{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}

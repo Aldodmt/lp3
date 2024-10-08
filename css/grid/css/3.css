@@ -1,0 +1,32 @@
+/*Gred 3*/
+
+body{
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+    background-repeat: no-repeat;
+    margin: 0;
+    color: #eee;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-container{
+    display: grid;
+    grid-gap: 2px;
+    /*grid-template-columns: repeat(3, minmax(100px, 1fr));*/
+    /*grid-template-columns: repeat(3, minmax(min-content, 1fr));*/
+    /*grid-template-columns: repeat(3, minmax(max-content, 1fr));*/
+    /*grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));*/
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.grid-item{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
