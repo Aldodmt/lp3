@@ -21,9 +21,9 @@ var numero = 8;
 if(numero<10){
     alert('El nro es: '+numero);
 }else if(numero == 10){
-    alert('El nro es: '+numero)
+    alert('El nro es: '+numero);
 }else{
-    alert('El nro es: '+numero)
+    alert('El nro es: '+numero);
 }
 
 //Switch
